@@ -1,9 +1,16 @@
 {
   "name": "mundo-magico-antonella-api",
-  "version": "0.1.8.1",
+  "version": "0.1.8.3",
   "private": true,
   "type": "module",
-  "scripts": { "start": "node server.js" },
-  "engines": { "node": ">=20" },
-  "dependencies": { "express": "^5.1.0" }
+  "scripts": {
+    "start": "node servidor.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "ffmpeg-static": "^5.2.0"
+  }
 }
